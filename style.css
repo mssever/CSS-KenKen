@@ -22,6 +22,8 @@ html {
 
 .prompt {
     font-weight: bold;
+    z-index: 5
+    position: relative;
 }
 
 #box3, #box7, #box10, #box11, #box12, #box15 {
@@ -41,5 +43,13 @@ input {
     text-align: center;
     font-size: min(10vw, 10vh);
     position: relative;
-    top: -1rem;
+    top: -1.25rem;
+}
+input:hover, input:focus, input:active {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+input:focus, input:active {
+    background-color: white;
 }
