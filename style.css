@@ -11,7 +11,7 @@ html {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     background-color: cornsilk;
-    border: 5px solid black;
+    border: min(2vh, 2vw) solid black;
     width: min(80vw, 80vh);
     height: min(80vw, 80vh);
     margin: 1rem auto;
@@ -25,14 +25,15 @@ html {
     font-weight: bold;
     z-index: 5;
     position: relative;
+    font-size: min(3vh, 3vw);
 }
 
 #box3, #box7, #box10, #box11, #box12, #box15 {
-    border-left: solid 5px black;
+    border-left: solid min(2vh, 2vw) black;
 }
 
 #box1, #box2, #box3, #box4, #box5, #box8, #box9, #box10, #box11 {
-    border-bottom: 5px solid black;
+    border-bottom: min(2vh, 2vw) solid black;
 }
 
 input {
