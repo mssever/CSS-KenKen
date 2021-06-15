@@ -25,7 +25,7 @@ html {
     font-weight: bold;
     z-index: 5;
     position: relative;
-    font-size: min(3vh, 3vw);
+    /* font-size: min(3vh, 3vw); */
 }
 
 #box3, #box7, #box10, #box11, #box12, #box15 {
