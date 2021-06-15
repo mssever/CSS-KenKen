@@ -22,7 +22,7 @@ html {
 
 .prompt {
     font-weight: bold;
-    z-index: 5
+    z-index: 5;
     position: relative;
 }
 
